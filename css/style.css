@@ -109,9 +109,29 @@ img {
 }
 
 .main-footer {
-	background: #d9e4ea;
+	color: #fff;
+	background: #67aeca;
 	padding: 2em 0;
-	margin-top: 30px;
+	margin-top: 40px;
+	margin-bottom: 0;
+}
+
+.footer-details {
+	border-top: 1px solid #e8e8e8;
+	padding-top: 15px;
+	margin-right: 1.25em;
+	margin-bottom: 0;
+	margin-left: 1.25em;
+}
+
+.footer-name {
+	float: left;
+	margin-bottom: 0;
+}
+
+.footer-tag {
+	float: right;
+	margin-bottom: 0;
 }
 
 /* ---- Page Elements ---- */
@@ -119,6 +139,13 @@ img {
 .portfolio-img {
 	width: 250px;
 }
+
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
 
 
 /* =================================
